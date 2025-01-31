@@ -31,6 +31,10 @@
         <div class="content-section">
           <h3>Experience</h3>
           <p>
+            <strong>Full Stack Backend Developer Intern</strong><br />
+            Developed and managed backend services using SQL for efficient data storage and retrieval. Developed and optimized APIs using Xano and GraphQL (Strawberry). Implemented GraphQL using Python to enhance data processing and API performance. Utilized VS Code for coding and debugging. Collaborated with frontend teams to ensure seamless API integration.
+          </p>
+          <p>
             <strong>Data Science Intern</strong><br />
             Data Science intern at Oasis Infobyte, Hyderabad, Telangana. My internship experience was a valuable learning opportunity where I gained practical knowledge in the field I am passionate about. I completed various tasks using Python (Jupyter Notebook).
           </p>

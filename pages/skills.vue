@@ -23,6 +23,8 @@
         <div class="skill-item">JavaScript</div>
         <div class="skill-item">Python</div>
         <div class="skill-item">SQL</div>
+        <div class="skill-item">Xano</div>
+        <div class="skill-item">GraphQL (Strawberry)</div>
         <div class="skill-item">Machine Learning</div>
         <div class="skill-item">Deep Learning</div>
         <div class="skill-item">R</div>

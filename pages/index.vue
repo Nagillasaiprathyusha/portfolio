@@ -29,13 +29,13 @@
       <!-- Description Section -->
       <p class="description">
         A passionate IT professional with a keen interest in Data Science, Machine Learning, 
-        Artificial Intelligence, and Deep Learning. With a strong foundation in Python and 
+        Artificial Intelligence, Deep Learning, and Full Stack Backend Developing. With a strong foundation in Python and 
         hands-on experience in building software solutions.
       </p>
       
       <!-- Actively Seeking Opportunities Line -->
       <p class="seeking-opportunities">
-        I am actively seeking opportunities in data science and software engineering. 
+        I am actively seeking opportunities in data science and full stack backend developer. 
         I am eager to apply my skills in problem-solving, analytical thinking, and 
         innovation to contribute to cutting-edge projects and drive business growth.
       </p>

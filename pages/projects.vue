@@ -21,8 +21,10 @@
           <h3><b>{{ project.title }}</b></h3>
           <p>{{ project.description }}</p>
           <h5><b>Skills Used:</b> {{ project.skills }}</h5>
-          <div class="link-box">
-            <a :href="project.link" target="_blank">Link to view my project</a> <!-- Project Link -->
+          
+          <!-- Conditionally render the link box only if a project has a link -->
+          <div v-if="project.link" class="link-box">
+            <a :href="project.link" target="_blank">Link to view my project</a>
           </div>
         </div>
       </div>
@@ -39,34 +41,40 @@ const projects = ref([]);
 const mockProjects = [
   {
     id: 1,
+    title: "Keep Investing – Investment App (Backend Development) - On-Site",
+    description: "Developed a financial planning platform allowing users to create profiles, portfolios, and investment goals, with optimized backend services for efficient data retrieval. Utilized Xano, GraphQL (Strawberry), and Python to build scalable APIs and ensure seamless integration between frontend and backend systems.",
+    skills: "Python Programming, Xano, GraphQL, GraphQL (Strawberry)",
+  },
+  {
+    id: 2,
     title: "Image Segmentation",
     description: "Developed an image segmentation system using deep learning and computer vision techniques, utilizing the COCO 2014 dataset.",
     skills: "Deep learning, Python Programming, Problem Solving",
     link: "https://github.com/Nagillasaiprathyusha/Image_segmentation", // Project link
   },
   {
-    id: 2,
+    id: 3,
     title: "Predicting Wine Quality Through ML Technique",
     description: "Utilized Python and various machine learning algorithms to analyze the Wine Quality dataset.",
     skills: "Python, Keras, TensorFlow",
     link: "https://github.com/Nagillasaiprathyusha/wine-quality-ML-project.git", // Project link
   },
   {
-    id: 3,
+    id: 4,
     title: "Speaker Recognition",
     description: "Employs audio recordings and machine learning for speaker identification.",
     skills: "Google Colab, Python",
     link: "https://github.com/Nagillasaiprathyusha/Speaker-recognition-ML-project", // Project link
   },
   {
-    id: 4,
+    id: 5,
     title: "Amazon Sales in India",
     description: "Comprehensive analysis of Amazon's Sales data through Tableau.",
     skills: "Tableau",
     link: "https://github.com/Nagillasaiprathyusha/Amazon-sales-in-India", // Project link
   },
   {
-    id: 5,
+    id: 6,
     title: "Online Gym Management System",
     description: "Developed a web-based Gym Management System enabling users to book gym packages and access videos.",
     skills: "HTML, CSS, PHP",
