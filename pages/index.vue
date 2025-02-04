@@ -35,7 +35,7 @@
       
       <!-- Actively Seeking Opportunities Line -->
       <p class="seeking-opportunities">
-        I am actively seeking opportunities in data science and full stack backend developer. 
+        I am actively seeking opportunities in data science and backend developer. 
         I am eager to apply my skills in problem-solving, analytical thinking, and 
         innovation to contribute to cutting-edge projects and drive business growth.
       </p>
