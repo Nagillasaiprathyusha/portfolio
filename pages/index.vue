@@ -29,7 +29,7 @@
       <!-- Description Section -->
       <p class="description">
         A passionate IT professional with a keen interest in Data Science, Machine Learning, 
-        Artificial Intelligence, Deep Learning, and Full Stack Backend Developing. With a strong foundation in Python and 
+        Artificial Intelligence, Deep Learning, and Backend Developing. With a strong foundation in Python and 
         hands-on experience in building software solutions.
       </p>
       
